@@ -107,25 +107,7 @@
           >
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 tile">
-        <img
-          src="../assets/clients/thumbnails/chaipecharcha-thumbnail.jpg"
-          width="500"
-          height="300"
-          alt="Wedding E-Invites"
-          class="img-fluid"
-        />
-        <div class="overlay">
-          <span>Wedding E-Invites</span>
-          <router-link
-            :to="{
-              name: 'Client',
-              params: { client_name: 'Wedding E-Invites' },
-            }"
-            ><button>View</button></router-link
-          >
-        </div>
-      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 tile"></div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 tile"></div>
     </b-row>
   </b-container>
