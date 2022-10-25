@@ -17,6 +17,14 @@ const routes = [
     // this generates a separate chunk (portfolio.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "portfolio" */ '../components/Portfolio.vue')
+  },
+  {
+    path: '/client',
+    name: 'Client',
+    // route level code-splitting
+    // this generates a separate chunk (client.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "client" */ '../components/Client.vue')
   }
 ]
 
